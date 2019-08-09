@@ -1,0 +1,105 @@
+﻿:root {
+    --color00: #fff;
+    --color01: #519dc9;
+    --color02: #4581a4;
+    --color03: #3a6681;
+    --color04: #2e4c5f;
+    --color05: #223440;
+    --color06: #151d23;
+}
+
+
+body {
+    color: var(--color06);
+    background-color: var(--color04) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-control {
+    box-shadow: none;
+    border-color: var(--color01)
+}
+
+    .form-control:focus {
+        border-color: var(--color02);
+    }
+
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+    .login-form form {
+        color: var(--color06);
+        border-radius: 1px;
+        margin-bottom: 15px;
+        background: var(--color00);
+        border: 1px solid var(--color05);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+
+    .login-form h4 {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .login-form .avatar {
+        color: var(--color06);
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+    }
+
+        .login-form .avatar i {
+            font-size: 62px;
+        }
+
+    .login-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .login-form .form-control, .login-form .btn {
+        min-height: 40px;
+        border-radius: 2px;
+        transition: all 0.5s;
+    }
+
+    .login-form .close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .login-form .btn {
+        background: var(--color02);
+        border: none;
+        line-height: normal;
+    }
+
+        .login-form .btn:hover, .login-form .btn:focus {
+            background: var(--color01);
+        }
+
+    .login-form .checkbox-inline {
+        float: left;
+    }
+
+    .login-form input[type="checkbox"] {
+        margin-top: 2px;
+    }
+
+    .login-form .forgot-link {
+        float: right;
+    }
+
+    .login-form .small {
+        font-size: 10px;
+    }
+
+    .login-form a {
+        color: var(--color02);
+    }
